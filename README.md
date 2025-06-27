@@ -123,10 +123,10 @@ Follow these steps to set up and run the project locally.
     DB_HOST=localhost
     DB_USER=root
     DB_PASSWORD=
-    DB_NAME=ngo_calendar
+    DB_NAME=bhumi
 
     # Server Configuration
-    PORT=3000
+    PORT=8080
     ```
 
 5.  **Run the Application**
