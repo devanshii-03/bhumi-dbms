@@ -1,99 +1,61 @@
-````md
-<div align="center">
-
 # 🗓️ NGO Calendar Management System - Bhumi
 
-<p>
-  <img src="https://img.shields.io/badge/status-active-success?style=for-the-badge" alt="Status" />
-  <img src="https://img.shields.io/github/license/your-username/ngo-calendar?style=for-the-badge" alt="License" />
-  <img src="https://img.shields.io/github/last-commit/your-username/ngo-calendar?style=for-the-badge" alt="Last Commit" />
-</p>
+Status: active | License | Last Commit
 
 A centralized web-based system for efficient event, volunteer, inventory, and feedback management, built to support the operations of **Bhumi**, a leading NGO in India. This system aims to streamline administrative workflows, enable data-driven decision-making, and facilitate coordination across events and programs like Ignite, Catalyse, and Refresh.
 
-</div>
-
----
+-----
 
 ## 📋 Table of Contents
 
-- [Key Features](#-key-features)
-- [Tech Stack & Tools](#-tech-stack--tools)
-- [System Architecture](#-system-architecture)
-  - [ER Diagram](#er-diagram)
-  - [Project Structure](#project-structure)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation & Setup](#installation--setup)
-- [Usage & API Testing](#-usage--api-testing)
-- [Business Impact](#-business-impact)
-- [How to Contribute](#-how-to-contribute)
-- [License](#-license)
-- [Developed By](#-developed-by)
+  * Key Features
+  * Tech Stack & Tools
+  * System Architecture
+      * ER Diagram
+      * Project Structure
+  * Getting Started
+      * Prerequisites
+      * Installation & Setup
+  * Usage & API Testing
+  * Business Impact
+  * How to Contribute
+  * License
+  * Developed By
 
----
+-----
 
 ## ✨ Key Features
 
--   🔐 **User Authentication**: Role-based login for Admins and Volunteers.
--   📅 **Event Management**: Full CRUD (Create, Read, Update, Delete) functionality for events.
--   📦 **Inventory Management**: Track and allocate items required for various events.
--   🧍‍♂️ **Volunteer Tracking**: Monitor and manage volunteer data and participation.
--   📝 **Feedback Collection**: Submit and review feedback on a per-event, per-role basis.
--   🔗 **Google Calendar Sync**: Events are automatically synced to a shared Google Calendar.
--   📊 **Data Analytics Ready**: A clean and normalized database schema ready for future reporting.
--   🔄 **RESTful APIs**: Fully developed and tested backend APIs using Thunder Client.
+  * 🔐 **User Authentication**: Role-based login for Admins and Volunteers.
+  * 📅 **Event Management**: Full CRUD (Create, Read, Update, Delete) functionality for events.
+  * 📦 **Inventory Management**: Track and allocate items required for various events.
+  * 🧍‍♂️ **Volunteer Tracking**: Monitor and manage volunteer data and participation.
+  * 📝 **Feedback Collection**: Submit and review feedback on a per-event, per-role basis.
+  * 🔗 **Google Calendar Sync**: Events are automatically synced to a shared Google Calendar.
+  * 📊 **Data Analytics Ready**: A clean and normalized database schema ready for future reporting.
+  * 🔄 **RESTful APIs**: Fully developed and tested backend APIs using Thunder Client.
 
----
+-----
 
 ## 🔧 Tech Stack & Tools
 
-<table>
-  <tr>
-    <td align="center"><strong>Frontend</strong></td>
-    <td align="center"><strong>Backend</strong></td>
-    <td align="center"><strong>Database</strong></td>
-    <td align="center"><strong>Tools & APIs</strong></td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-      <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-    </td>
-    <td>
-        <img src="https://img.shields.io/badge/Thunder_Client-2563EB?style=for-the-badge&logo=thunder-client&logoColor=white" alt="Thunder Client" />
-        <img src="https://img.shields.io/badge/Google_Calendar-4285F4?style=for-the-badge&logo=google-calendar&logoColor=white" alt="Google Calendar API" />
-        <img src="https://img.shields.io/badge/dotenv-ECD53F?style=for-the-badge&logo=dotenv&logoColor=black" alt="dotenv" />
-    </td>
-  </tr>
-</table>
+| Frontend | Backend | Database | Tools & APIs |
+| :--- | :--- | :--- | :--- |
+| HTML5, CSS3, JavaScript, Bootstrap | Node.js, Express.js | MySQL | Thunder Client, Google Calendar API, dotenv |
 
----
+-----
 
 ## 🧩 System Architecture
 
 ### ER Diagram
 
-<details>
-<summary>Click to expand/collapse</summary>
+(This section is collapsible)
 
-![ER Diagram](https://i.imgur.com/your-er-diagram-image.png)
-
-</details>
+An ER Diagram is linked here.
 
 ### Project Structure
 
-<details>
-<summary>Click to expand/collapse</summary>
+(This section is collapsible)
 
 ```yaml
 project-root/
@@ -112,8 +74,7 @@ project-root/
 ├── .gitignore           # Files and folders to ignore
 ├── app.js               # Main server entry point
 └── package.json         # Project dependencies
-````
-
+```
 \</details\>
 
 -----
