@@ -49,13 +49,14 @@ A centralized web-based system for efficient event, volunteer, inventory, and fe
 
 ### ER Diagram
 
-(This section is collapsible)
+<details>
+<summary>Click to expand</summary>
 
-An ER Diagram is linked here.
+![ER Diagram](https://github.com/devanshii-03/bhumi-dbms/blob/main/public/assets/img/dbms-mini-proj-er-diagram.png)
+
+</details>
 
 ### Project Structure
-
-(This section is collapsible)
 
 ```yaml
 project-root/
@@ -75,7 +76,7 @@ project-root/
 ├── app.js               # Main server entry point
 └── package.json         # Project dependencies
 ```
-\</details\>
+
 
 -----
 
