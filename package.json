@@ -1,0 +1,43 @@
+{
+  "name": "bhumi",
+  "version": "1.0.0",
+  "description": "A simple web application for a college mini project for database managemengt systems for an ngo (bhumi) built using node.js and express.js",
+  "type": "module",
+  "main": "database.js",
+  "scripts": {
+    "dev": "npx nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devanshii-03/dbms-mini-project.git"
+  },
+  "keywords": [
+    "`bhumi`",
+    "`node`",
+    "`catalyse`",
+    "`ngo`",
+    "`express`",
+    "`web",
+    "application`",
+    "`dbms`",
+    "`database",
+    "management",
+    "system`"
+  ],
+  "author": "Devanshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devanshii-03/dbms-mini-project/issues"
+  },
+  "homepage": "https://github.com/devanshii-03/dbms-mini-project#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
